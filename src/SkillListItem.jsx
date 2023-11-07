@@ -1,3 +1,11 @@
-export default function SkillListItem () {
-    return <li>SkillListItem</li>
+import './SkillListItem.css'
+
+export default function SkillListItem ({skill}) {
+    
+    return (
+        <li className={"SkillListItem"}>
+            {skill.name}
+            {skill.level}     
+        </li>
+    )
 }
