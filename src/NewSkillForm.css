@@ -5,9 +5,9 @@
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
-    color: teal;
+    color: purple;
     text-align: left;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid gold;
     border-radius: 0.3rem;
     padding: 1rem;
   }
@@ -18,7 +18,7 @@
     font-weight: bold;
     color: teal;
     padding: 0.2rem;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid gold;
     border-radius: 0.3rem;
     outline: none;
   }
@@ -29,7 +29,7 @@
     font-weight: bold;
     color: white;
     padding: 0.2rem;
-    background-color: teal;
-    border: 0.2rem solid teal;
+    background-color: purple;
+    border: 0.2rem solid purple;
     border-radius: 0.3rem;
   }

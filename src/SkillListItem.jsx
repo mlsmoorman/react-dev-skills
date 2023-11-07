@@ -4,8 +4,8 @@ export default function SkillListItem ({skill}) {
     
     return (
         <li className={"SkillListItem"}>
-            {skill.name}
-            {skill.level}     
+            <div>{skill.name}</div>
+            <div className={"level"}>{skill.level}</div>
         </li>
     )
 }
